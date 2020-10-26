@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "back-to-my-firstlove", "back-to-my-firstlove\back-to-my-firstlove.csproj", "{5ABD888E-A9C6-442A-B1F0-3A8F564422D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5ABD888E-A9C6-442A-B1F0-3A8F564422D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ABD888E-A9C6-442A-B1F0-3A8F564422D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ABD888E-A9C6-442A-B1F0-3A8F564422D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ABD888E-A9C6-442A-B1F0-3A8F564422D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
