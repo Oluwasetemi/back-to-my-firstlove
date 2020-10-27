@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -225,9 +226,37 @@ namespace back_to_my_firstlove
             // add properties and toString and parse
 
             // working with text
+            // Formatting
+            // Trim, ToUpper, ToLower, , 
+            // Searching IndexOf
+            // Substrings - Substring, Split, 
+            // Replacing - Replace
+            // Null checking - String.IsNullOrEmpty, String.IsNullOrWhiteSpace
+            // Splitting Split
+            // Convert Strings to Numbers Convert class, 
+            // Summarizing text
+            var sentence = "This sis the thre reasom I am going to marry her and I sctrongly believe it will be very easy for anyone who is not lazy but favoured by God amongs Men";
+            Console.WriteLine(sentence.Length);
+            string res2 = StringUtility.SummarizeText(sentence, 25);
+            Console.WriteLine("Summarixed Text");
+            Console.WriteLine(res2);
+
+            // StringBuilder
+            var builder = new StringBuilder();
+            builder.Append('-', 10)
+            .AppendLine()
+            .Append("Header")
+            .AppendLine()
+            .Append('-', 10)
+            .Replace('-', '*');
+            Console.WriteLine(builder);
+
+            // procedural Programming 
 
 
             // working with Files
+
+
 
             // debugging applications
 
