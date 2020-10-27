@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.InteropServices.ComTypes;
 
 namespace back_to_my_firstlove
 {
@@ -198,8 +197,35 @@ namespace back_to_my_firstlove
             }
 
             // working with dates
+            var dateTime = new DateTime(2015, 1, 1);
+            var now = DateTime.Now;
+            var today = DateTime.Today;
+            Console.WriteLine("Working with Time");
+            Console.WriteLine(today.ToLongDateString());
+            Console.WriteLine(today.ToShortDateString());
+            Console.WriteLine(today.ToLongTimeString());
+            Console.WriteLine(today.ToShortTimeString());
+            Console.WriteLine();
+            Console.WriteLine(now.ToString());
+
+            // timespan
+            Console.WriteLine("Working with timespan");
+            var timeSpan = new TimeSpan(1, 2, 3);
+            Console.WriteLine(timeSpan);
+            Console.WriteLine();
+            var timeSpan2 = new TimeSpan(1, 0, 0);
+            Console.WriteLine(timeSpan2);
+
+            // difference btw 2 datetime is timespan
+            Console.WriteLine("Working with Time span difference");
+            var twoDaysAfterNow = now.AddDays(2);
+            var diff = twoDaysAfterNow - now;
+            Console.WriteLine(diff.ToString());
+            Console.WriteLine(diff.Days);
+            // add properties and toString and parse
 
             // working with text
+
 
             // working with Files
 
